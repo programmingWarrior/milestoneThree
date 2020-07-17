@@ -29,9 +29,9 @@ function feetToMile(feet){
 
 
 function woodCalculator(chair,table,bed){
-    var chair = chair*1;
-    var table = table*3;
-    var bed   = bed*5;
+    var chair = chair*1; /**1 chair = 1 q.feet */
+    var table = table*3; /**1 table = 3 q.feet */
+    var bed   = bed*5;   /**1 bed = 5 q.feet */
     var itemsList =[chair,table,bed];
     
     var sum = 0;
